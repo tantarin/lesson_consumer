@@ -8,7 +8,6 @@ import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.listener.*;
-import org.springframework.kafka.listener.MessageListenerAdapter;
 import org.springframework.kafka.listener.MessageListenerContainer;
 
 import org.springframework.kafka.annotation.EnableKafka;
@@ -17,7 +16,6 @@ import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
 import org.springframework.kafka.listener.MessageListener;
-import org.springframework.kafka.support.serializer.StringDeserializer;
 import org.apache.kafka.clients.consumer.*;
 
 import java.util.Map;
